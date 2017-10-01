@@ -1,0 +1,37 @@
+.nav-bar {
+  background-image: linear-gradient(90deg, rgb(73, 189, 185), rgb(66, 183, 199));
+  padding: 20px 15px;
+  margin-bottom: 50px;
+}
+
+.footer-bar {
+  background-image: linear-gradient(90deg, rgb(73, 189, 185), rgb(66, 183, 199));
+  padding: 20px 15px;
+  margin-top: 50px;
+}
+
+.innerNav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: baseline;
+  list-style: none;
+  margin: auto 0;
+}
+
+.innerNav li {
+  margin-right: 5%;
+  font-size: 20px;
+}
+
+.innerNav>li a {
+  color: white;
+}
+
+.mainCont {
+  height: 40vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
